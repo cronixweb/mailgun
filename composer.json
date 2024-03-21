@@ -1,6 +1,6 @@
 {
     "name": "cronixweb/mailgun",
-    "description": "This is my package mailgun",
+    "description": "A Wrapper class to send emails via Mailgun API. Supports both html & templates",
     "keywords": [
         "CronixWeb",
         "laravel",
@@ -30,14 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CronixWeb\\Mailgun\\": "src/",
-            "CronixWeb\\Mailgun\\Database\\Factories\\": "database/factories/"
+            "CronixWeb\\Mailgun\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CronixWeb\\Mailgun\\Tests\\": "tests/",
-            "Workbench\\App\\": "workbench/app/"
+            "CronixWeb\\Mailgun\\Tests\\": "tests/"
         }
     },
     "scripts": {
